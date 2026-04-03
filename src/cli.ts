@@ -5,7 +5,7 @@ import { printHelpAi } from "./utils/ai.js";
 import { getPackageVersion } from "./utils/version.js";
 
 const HELP = `Frontmatter Solo Check
-Usage: frontmatter-check [options]
+Usage: solo-check [options]
 
 Options:
 --root <path>
@@ -19,7 +19,7 @@ Options:
 function createProgram(version: string): Command {
   const program = new Command();
   program
-    .name("frontmatter-check")
+    .name("solo-check")
     .description("Validate a project against the Frontmatter Solo contract.")
     .version(version, "-v, --version", "Display CLI version")
     .helpOption("-h, --help", "Display help for command")
