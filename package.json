@@ -1,8 +1,9 @@
 {
   "name": "@withfrontmatter/solo-check",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "bin": {
+    "solo-check": "dist/cli.js",
     "frontmatter-check": "dist/cli.js"
   },
   "main": "dist/index.js",
